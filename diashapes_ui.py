@@ -71,7 +71,7 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QApplication.translate("MainWindow", "MainWindow", None))
+        MainWindow.setWindowTitle(QApplication.translate("MainWindow", "DiaShapes", None))
         self.btnInstall.setText(QApplication.translate("MainWindow", "Install", None))
         self.btnUpdate.setText(QApplication.translate("MainWindow", "Update", None))
         self.btnSearch.setText(QApplication.translate("MainWindow", "Search", None))
